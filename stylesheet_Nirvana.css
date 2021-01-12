@@ -1,0 +1,105 @@
+html {
+		background-color: 	#030303;
+		font-family: Helvetica;
+}
+
+body {
+	margin:0pt;
+	padding:0; 
+}
+
+p {
+	color: #FFFFFF;
+	hyphens: auto; 
+	text-align: justify;
+}
+
+
+.box {
+	width: 1200px;
+	
+	padding: 40px;
+	margin: auto;
+	margin-top: 5%;
+}
+
+
+a {
+	color: 	#FFFFFF;
+	text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'carbontyperegular';
+    src: url('carbontype-webfont.woff2') format('woff2'),
+         url('carbontype-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	color: #FEE901;
+	font-family: 'carbontyperegular', Arial, sans-serif;
+}
+h2 {
+	color: #FEE901;
+	font-family: 'carbontyperegular', Arial, sans-serif;
+}
+
+table{
+	color: #FFFFFF;
+	border-collapse: seperate;
+	border-spacing: 10px;
+	text-align: left;
+}
+
+td{
+	padding-right: 80px;
+	padding-bottom: 15px;
+}
+th{
+	padding-bottom: 15px;
+	padding-top: 50px;
+	padding-right: 60px;
+	font-size: 15pt;
+	color: #FEE901;
+	font-family: 'carbontyperegular', Arial, sans-serif;
+
+}
+
+ul {
+	padding-left: 0;
+	margin-left: 0;
+	list-style-type: none;
+}
+ol {
+	padding-left: 0;
+	margin-left: 0;
+	list-style: decimal;
+	list-style-position: inside;
+}
+li {
+	color: #FFFFFF;
+	padding-left: 0em;
+
+}
+hr{
+	color: #FEE901;
+	background-color: #FEE901;
+}
+
+#box2 {
+	background: rgba(41,41,41, 0.5);
+	padding: 40px;
+	}
+#Navigation li{
+	float: left;
+	padding-right: 30px;
+	color: #FEE901;
+	font-family: 'carbontyperegular', Arial, sans-serif;
+}
+.back {
+	color: #FEE901;
+}
